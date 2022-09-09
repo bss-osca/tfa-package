@@ -52,7 +52,7 @@ Maybe a short intro about the exercise and how data are imported.
 
 Some help links:
 
-- To use this template you must have installed the tfa package (`remotes::install_github("bss-osca/tfa/tfa-package")`). Go to **File > New File > R Markdown...** and select the **From template** in the left column and then **TFA Exercise**.
+- To use this template you must have installed the tfa package (`remotes::install_github("bss-osca/tfa-package")`). Go to **File > New File > R Markdown...** and select the **From template** in the left column and then **TFA Exercise**.
 - For Markdown basics see **Help > Markdown Quick Reference** in RStudio.
 - For R Markdown basics see the **Help > Cheatsheets > R Markdown Cheat Sheet** in RStudio.
 - Learn more about he Distill format for R Markdown at <https://rstudio.github.io/distill>.
