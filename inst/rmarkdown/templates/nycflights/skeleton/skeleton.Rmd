@@ -644,7 +644,7 @@ Include further analysis you think are important.
 ## Colophon 
 <!-- Always keep this section -->
 
-This report has been created inside [RStudio](http://www.rstudio.com/ide/) using [R Markdown](https://rmarkdown.rstudio.com/) and the [distill](https://rstudio.github.io/distill/) format. 
+This report has been created inside [RStudio](http://www.rstudio.com/ide/) using [R Markdown](https://rmarkdown.rstudio.com/). 
 
 The report was built using:
 
