@@ -37,7 +37,7 @@ knitr::opts_chunk$set(
 ```
 
 
-<div class="comment">This is a template for a TFA exercise. Modify it as needed. Text in gold are comments. Some example text and code is given. Delete as needed.</div>
+<div class="comment">This is a template for a TFA exercise. Modify it as needed. Text in gold are comments. Some example text, comments and code are given. Delete as needed.</div>
 
 ## Introduction
 
