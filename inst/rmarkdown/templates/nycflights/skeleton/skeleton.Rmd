@@ -70,7 +70,6 @@ library(nycflights13)
 library(skimr)
 library(knitr)
 library(kableExtra)
-library(directlabels)
 library(patchwork)
 library(rmarkdown)
 library(lubridate)
@@ -226,24 +225,18 @@ Summaries are:
 ```
 We will try to visualize the numbers using a line plot with carrier as color aesthetic:
 
-<aside>
-We here will use the package *directlabels* to add the labels directly beside the lines. See [here]( http://directlabels.r-forge.r-project.org/docs/lineplot/plots/lars.html) for info.   
-</aside>
-
 ```{r}
 # dat %>%
 #   count(month, carrier_name) %>%
 #   ggplot(mapping = aes(x = ___, y = ___, color = ___)) +
 #   geom_line() +
 #   geom_point() +
-#   geom_dl(aes(label = ___), method = list(dl.trans(x = x + .3), "last.bumpup")) + 
 #   scale_x_continuous(breaks = 1:12, limits = c(1,17)) + 
 #   labs(
 #     title = "Number of flights",
 #     y = "Flights",
 #     x = "Month"
-#   ) + 
-#   theme(legend.position = "none") 
+#   ) 
 ```
 
 ### Which carriers/airlines have the worst delays?
