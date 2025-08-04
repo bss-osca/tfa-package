@@ -2,10 +2,12 @@
 #'
 #' A dataset containing the zip numbers for Jutland in Denmark.
 #'
-#' @format A data frame with 376 rows and 2 variables:
+#' @format A data frame 1159 obs. of 4 variables:
 #'
-#'   * **Zip** Zip code.
-#'   * **Area** Name of area.
+#'   * **postal_code** Zip code.
+#'   * **place_name** Name of area.
+#'   * **latitude** Latitude coordinate.
+#'   * **longitude** Longitude coordinate.
 #'
 #' @examples
 #' zips
